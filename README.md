@@ -3,7 +3,7 @@
 
 ---
 
-### **Abstract**
+### Abstract
 
 Economic commentary still measures “prosperity” by total pay‑cheques, yet a growing slice of household spending power now comes from dividends, interest, rents and public transfers rather than wages or self‑employment income. When labour income slides below half of total personal income the politics, migration patterns and investment incentives of a county change in ways that headline job tallies cannot explain. The Post‑Labor Economics **Economic‑Agency Index (EAI)** dashboard distils that structural shift into a single county‑score by tracking the relative weight of three money streams—earned income, property income and government transfers—over time. Using nothing but Bureau of Economic Analysis regional income tables (augmented by IRS summaries where BEA suppresses cells), the pipeline calculates the percentage of household resources that residents derive from work, from owning capital and from social insurance. Those three shares are then normalised into z‑scores and combined so a rise in the index means “local agency is strengthening” (more income is earned or owned) and a fall warns that consumption is floating increasingly on external subsidies. The resulting panel, covering every U.S. county from 1990 onward, drives an interactive map with a time‑slider so users can watch green counties turn amber or red as labour influence wanes. Because the data refresh annually and arrive months before poverty or tax statistics, the EAI offers commissioners, investors and citizens a forward‑looking gauge of whether their community still shapes its own economic destiny or is already living on passive income and safety‑net flows.
 
