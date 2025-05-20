@@ -1,0 +1,47 @@
+# Core dependencies
+python-dotenv==1.0.0
+pyyaml==6.0.1
+pandas==2.1.4
+numpy==1.26.3
+pyarrow==14.0.2
+fastparquet==2023.10.1
+
+# API and Web Framework
+fastapi==0.109.0
+uvicorn==0.27.0
+streamlit==1.29.0
+requests==2.31.0
+
+# Data Processing
+geopandas==0.14.1
+shapely==2.0.2
+pyproj==3.6.1
+dask==2023.12.1
+dask-geopandas==0.3.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Visualization
+plotly==5.18.0
+folium==0.15.1
+altair==5.2.0
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Testing and Development
+pytest==7.4.4
+black==23.12.1
+flake8==7.0.0
+isort==5.13.2
+mypy==1.8.0
+
+# Utilities
+tqdm==4.66.1
+python-dateutil==2.8.2
+pytz==2023.3.post1
+openpyxl==3.1.2  # For Excel file handling
+beautifulsoup4==4.12.3  # For web scraping
+lxml==5.1.0  # For XML processing 
