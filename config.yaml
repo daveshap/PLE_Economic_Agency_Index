@@ -1,0 +1,99 @@
+# Application Configuration
+app:
+  name: "Economic Agency Index Dashboard"
+  version: "1.0.0"
+  debug: false
+  host: "0.0.0.0"
+  port: 8501  # Streamlit default port
+  api_port: 8000
+
+# Data Sources
+data_sources:
+  bea:
+    base_url: "https://apps.bea.gov/api/data/"
+    api_key: "${BEA_API_KEY}"  # Will be loaded from environment
+    tables:
+      sainc7:
+        name: "SAINC7"
+        lines:
+          wages: 50
+          property_income: 110
+          transfers: 240
+    refresh_frequency: "annual"
+    lag_months: 9
+
+  irs:
+    base_url: "https://www.irs.gov/statistics/soi-tax-stats-county-data"
+    backup_for: "bea.suppressed_cells"
+    refresh_frequency: "annual"
+
+  census:
+    tiger_url: "https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/"
+    shapefile: "tl_2023_us_county.zip"
+    refresh_frequency: "static"
+
+# Data Processing
+processing:
+  start_year: 1990
+  current_year: 2023
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  raw_dir: "data/raw"
+  
+  eai:
+    components:
+      - name: "earned_income"
+        weight: 1.0
+        inverse: false
+      - name: "property_income"
+        weight: 1.0
+        inverse: false
+      - name: "transfers"
+        weight: -1.0
+        inverse: true
+    normalization: "zscore"
+    output_format: "parquet"
+
+# Database
+database:
+  host: "${DB_HOST}"
+  port: "${DB_PORT}"
+  name: "${DB_NAME}"
+  user: "${DB_USER}"
+  password: "${DB_PASSWORD}"
+  schema: "public"
+  pool_size: 5
+  max_overflow: 10
+
+# Visualization
+visualization:
+  map:
+    center: [37.0902, -95.7129]  # Center of US
+    zoom: 4
+    style: "carto-positron"
+    colors:
+      - [0, "#ff0000"]    # Red for low agency
+      - [0.5, "#ffff00"]  # Yellow for medium
+      - [1, "#00ff00"]    # Green for high agency
+    opacity: 0.7
+
+  time_slider:
+    step: 1  # years
+    default_year: 2023
+    animation_speed: 1000  # ms
+
+# API Settings
+api:
+  rate_limit: 100  # requests per minute
+  cache_ttl: 3600  # seconds
+  cors_origins:
+    - "http://localhost:8501"
+    - "http://localhost:8000"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/app.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5 
