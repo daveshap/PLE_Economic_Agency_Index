@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="County income" />
+<meta name="abstract" content="County income" />
+<link rel="canonical" href="https://www.irs.gov/statistics/soi-tax-stats-county-data" />
+<meta name="robots" content="index, follow" />
+<meta name="original-source" content="https://www.irs.gov/uac/soi-tax-stats-county-data" />
+<meta name="rights" content="United States Internal Revenue Services" />
+<meta property="og:image:url" content="https://www.irs.gov/pub/image/logo_small.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:alt" content="IRS logo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="County income" />
+<meta name="twitter:title" content="SOI Tax Stats - County data | Internal Revenue Service" />
+<meta name="twitter:image" content="https://www.irs.gov/pub/image/logo_small.jpg" />
+<meta name="twitter:image:alt" content="IRS logo" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "name": "SOI Tax Stats - County data",
+            "datePosted": "2016-09-30T00:00:00-0400"
+        }
+    ]
+}</script>
+<meta name="audience" content="NULL" />
+<meta name="irsStandard-type" content="NULL" />
+<meta name="uniqueID" content="3318" />
+<meta name="isHistorical" content="no" />
+<meta name="historical-date" content="NULL" />
+<meta name="changed" content="1742324677" />
+<meta name="topic" content="NULL" />
+<meta name="guidance" content="NULL" />
+<meta name="channel" content="NULL" />
+<meta name="organization" content="NULL" />
+<meta name="otID" content="215866" />
+<meta name="prod_SEID" content="5xrvb" />
+<link rel="icon" href="/themes/custom/pup_base/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.irs.gov/statistics/soi-tax-stats-county-data" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>SOI Tax Stats - County data | Internal Revenue Service</title>
+    <link rel="stylesheet" media="all" href="/pub/css/css_EbHYVOoxkdRb75D2owHhoWe_tQLrP94FkGH68DXpTiM.css?delta=0&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkGtywzAIhC8kWUfSYInaamTQgJTEt6_8SptOfsF-7OwAEAJLTEx-QWrq4F37R4oTVgMxVgZa3dUMX8JUTZhZkVyUViAPhzqhz2l0RzsEVdNz8TLCNzxN5AdlhtiNdPMZRswo7qJ2o_akts64oMFn3eiVckpTQGASKLNek18yNCptzElnjKa04sMNY6osvuQ2Jfpz8efxJ7g7p8wjZK8o9xTwMP5juy-JuoNbrWtfeHphYrL7H22R1L-5cU1LydhLxQWKe5ee7yiSYo_WVTtyIyj-AKcKsyg" />
+<link rel="stylesheet" media="all" href="/pub/css/css__X46D0RHaxxmWS25Y92YX0BOyjEyih2ZDv6NQunmw3c.css?delta=1&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkGtywzAIhC8kWUfSYInaamTQgJTEt6_8SptOfsF-7OwAEAJLTEx-QWrq4F37R4oTVgMxVgZa3dUMX8JUTZhZkVyUViAPhzqhz2l0RzsEVdNz8TLCNzxN5AdlhtiNdPMZRswo7qJ2o_akts64oMFn3eiVckpTQGASKLNek18yNCptzElnjKa04sMNY6osvuQ2Jfpz8efxJ7g7p8wjZK8o9xTwMP5juy-JuoNbrWtfeHphYrL7H22R1L-5cU1LydhLxQWKe5ee7yiSYo_WVTtyIyj-AKcKsyg" />
+<link rel="stylesheet" media="print" href="/pub/css/css_KotNPsIwnr5tUkEmro5ohj3Jpa2WBRRNAL-vf4og9_M.css?delta=2&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkGtywzAIhC8kWUfSYInaamTQgJTEt6_8SptOfsF-7OwAEAJLTEx-QWrq4F37R4oTVgMxVgZa3dUMX8JUTZhZkVyUViAPhzqhz2l0RzsEVdNz8TLCNzxN5AdlhtiNdPMZRswo7qJ2o_akts64oMFn3eiVckpTQGASKLNek18yNCptzElnjKa04sMNY6osvuQ2Jfpz8efxJ7g7p8wjZK8o9xTwMP5juy-JuoNbrWtfeHphYrL7H22R1L-5cU1LydhLxQWKe5ee7yiSYo_WVTtyIyj-AKcKsyg" />
+<link rel="stylesheet" media="all" href="/pub/css/css_QR9lija-3SkghdB2cEO3JWFam6FNny_3QyL854n0WcU.css?delta=3&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkGtywzAIhC8kWUfSYInaamTQgJTEt6_8SptOfsF-7OwAEAJLTEx-QWrq4F37R4oTVgMxVgZa3dUMX8JUTZhZkVyUViAPhzqhz2l0RzsEVdNz8TLCNzxN5AdlhtiNdPMZRswo7qJ2o_akts64oMFn3eiVckpTQGASKLNek18yNCptzElnjKa04sMNY6osvuQ2Jfpz8efxJ7g7p8wjZK8o9xTwMP5juy-JuoNbrWtfeHphYrL7H22R1L-5cU1LydhLxQWKe5ee7yiSYo_WVTtyIyj-AKcKsyg" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/3318","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJxtkmGSgzAIhS9k9EgZYmhkG0MGsN3efqOtrd32j-Z9jwFCgHFkicTFz1gWHeBd-yvFhNZBjMZQbsN-6E_CxbrAbGoCdXiefBX0VOhoVq58QTkQY85GtRsnVizD_dcHPO0kylIh93f1gD5T2ENH1S6CQYYbyhBwgguxNMbXkhliiy1nnyFgbv5O3UrdgzqbcMYOf22le8WH7BJzyugN0pDa57_u4Qd-3-HcVRBI7XqT7tlepF9KXUImnTB2dam-jRpVKVAmWwc7U_HrWALI5gdQHFLmANkpGboTgi2C-nILR3RNORCjMePmjGeMZCy-5iVRObzpd_sb3CLvtb2iXKi1OnxhWxyJPvschap94o_2j6bd2sDTE89g4-QmpDTZC2ICt67kgZTlM-fXidyN4raddVWovBIrgrRyb4mU5tpede16brv6Lv26yUKxxepNGxrWp_gDxQBKbg","theme":"pup_irs","theme_token":null},"ajaxTrustedUrl":{"\/site-index-search":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_environment":false},"tagIds":["GTM-KV978ZL"]},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":-10},"es":{"id":"es","name":"Spanish","direction":"ltr","weight":-9},"zh-hans":{"id":"zh-hans","name":"Chinese, Simplified","direction":"ltr","weight":-8},"zh-hant":{"id":"zh-hant","name":"Chinese, Traditional","direction":"ltr","weight":-7},"ko":{"id":"ko","name":"Korean","direction":"ltr","weight":-6},"ru":{"id":"ru","name":"Russian","direction":"ltr","weight":-5},"vi":{"id":"vi","name":"Vietnamese","direction":"ltr","weight":-4},"ht":{"id":"ht","name":"Haitian Creole","direction":"ltr","weight":-3}}},"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":true,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":".paragraph--type--social-media-footer, .btn-primary, .btn-secondary","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"mailto","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":true,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link fa-external-link-alt","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"accordion_menus":{"accordion_closed":{"main_mobile":"main_mobile"}},"chosen":{"selector":"select:not(:hidden,[id*=\u0027edit-state\u0027])","minimum_single":25,"minimum_multiple":20,"minimum_width":200,"use_relative_width":false,"options":{"disable_search":false,"disable_search_threshold":0,"allow_single_deselect":false,"add_helper_buttons":false,"search_contains":true,"placeholder_text_multiple":"Choose some option","placeholder_text_single":"Choose an option","no_results_text":"No results match","max_shown_results":null,"inherit_select_classes":true}},"ajax":[],"user":{"uid":0,"permissionsHash":"f33e446209428f090726e941f2b420bce537239529286fb728aa34c4f8056229"}}</script>
+<script src="/pub/js/js_r_8-Wsbm9a4Ovmz9lYx1HnXyQlhDtWosHEZIXVyGD98.js?scope=header&amp;delta=0&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkWGSgyAMhS-EciQmQMRskTAhdtvbr9padad_SN73wpAECIElEhc3YZmbhat2vxQTqoEYlaE87Z70g3BR45m1qUC1n8xVQUeFzmblyneUE1HmrFRNGLlhsa_Qexx2EmWukPuXMhEUMjxRrMcR7sTSDD40U7ntlW9pEnPK6BSSTcvxX_fwA48rnEydq1smx9bIUyZd55youLVLD7L5HhralNlD7hopdgOCzoLtcAtH7BbVgSiFjJsTbhhJWVzNc6JyWvF3-xvcKkna5_0gVPXAE2gYuxEpjXpATNCtv3giZb62vdKGIMvtnf8BwVLQaA"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?sw02nd"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?sw02nd"></script>
+
+  
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="YVPKX-K5D8K-83D3W-U8X45-X3FTN",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"YVPKX-K5D8K-83D3W-U8X45-X3FTN",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ilvqcraxe3bi22bmu63a-f-9a0554b81-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"8675","ak.ai":parseInt("388528",10),"ak.ol":"0","ak.cr":8,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"51d4ed48","ak.r":44909,"ak.a2":e,"ak.m":"dscna","ak.n":"essl","ak.bpcip":"66.235.1.0","ak.cport":53547,"ak.gh":"23.52.133.7","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1747756982","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==aaAXBJbbnQAJtnhEc+vemQ0L+dj4UtoEzNGt5NNo8uatf/cio7ksg57NN/IjM0XbOpDo+QKd+95TXs5iYbfzqazpMBxVVeHFchfLe7VsIhhvN90UXcuqXB22y+dYQMX805xzzp7Z36fLzxlXLYDsDXfDiJBAkB5NKgIKgoMMeYyaz5vyEawUyrflIkpS7d4YiupOXJg1xfwCWUxlfBYngu+j+zj3QwiTYj8w+DH90YjrC3Uq4ENzRs3FGd6ClgeeBMgRTt1fNiV9zEIavIxj/nMn5DDovNB28Aq1MexmconfERwvD0Wjo4J269x58MG55oBrXI4QJKLdPz3R5c96/lUHSqJ4XIz/0pfCSB8HJcGDqGpkhDd+9sSvh4qGmwNRtTYGg0jjYB78gbHgTT96t7xodOsYECwhuH3I+HPuKEQ=","ak.pv":"205","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+  <body class="path-node page-node-type-pup-article has-glyphicons lang-en">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV978ZL"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id='mobile-clickable-overlay' class='mobile-menu-overlay'></div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+<header id="navbar" role="banner">
+
+  
+  
+          
+    
+    
+          <div class="pup-header_official">
+        <div class="container header-official-message">
+          <div class="inline-official">
+            <div class="official-site-flag">
+            </div>
+              <div class="region region-header-official">
+    
+
+ 
+
+<section id="block-governmentbanner" data-block-plugin-id="block_content:2d0fd18b-5f78-424d-a8b7-dfb90febb231" class="block block-block-content block-block-content2d0fd18b-5f78-424d-a8b7-dfb90febb231 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p>An official website of the United States Government</p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+          </div>
+        </div>
+      </div>
+    
+    <div class="pup-header-main">
+      <div class="container">
+        <div class="row pup-header-main__content">
+          
+                                        
+                                        <div class="col-xs-2 col-md-1 no-gutter pup-header-content-lt">
+                    <div class="region region-header-left">
+                <a class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
+            <img src="/themes/custom/pup_base/IRS-Logo.svg" alt="Home" />
+            <img class="print-logo" src="/themes/custom/pup_irs/images/logo-print.svg" alt="Home" aria-hidden="true" />
+        </a>
+            
+  </div>
+
+                </div>
+              
+              
+              <div class="col-md-11 hidden-xs hidden-sm pup-header-content-rt">
+                  <div class="region region-header-right">
+    
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-interface clearfix" id="block-languageswitcher" data-block-plugin-id="language_block:language_interface">
+  
+    
+  
+        <div class="dropdown pup-switch-hidden">
+    <button class="btn btn-default dropdown-toggle languageSwitcher" type="button" id="languageSwitcher" data-toggle="dropdown" aria-expanded="false">
+      English
+      <i class="fa fa-chevron-down"></i>
+    </button>
+    <ul class="dropdown-menu" data-block="languageswitcher"><li hreflang="es" data-drupal-link-system-path="node/3318" class="es"><a href="/es/statistics/soi-tax-stats-county-data" class="language-link" lang="es" hreflang="es" data-drupal-link-system-path="node/3318">Español</a></li><li hreflang="zh-hans" data-drupal-link-system-path="node/3318" class="zh-hans"><a href="/zh-hans/statistics/soi-tax-stats-county-data" class="language-link" lang="zh-hans" hreflang="zh-hans" data-drupal-link-system-path="node/3318">中文 (简体)</a></li><li hreflang="zh-hant" data-drupal-link-system-path="node/3318" class="zh-hant"><a href="/zh-hant/statistics/soi-tax-stats-county-data" class="language-link" lang="zh-hant" hreflang="zh-hant" data-drupal-link-system-path="node/3318">中文 (繁體)</a></li><li hreflang="ko" data-drupal-link-system-path="node/3318" class="ko"><a href="/ko/statistics/soi-tax-stats-county-data" class="language-link" lang="ko" hreflang="ko" data-drupal-link-system-path="node/3318">한국어</a></li><li hreflang="ru" data-drupal-link-system-path="node/3318" class="ru"><a href="/ru/statistics/soi-tax-stats-county-data" class="language-link" lang="ru" hreflang="ru" data-drupal-link-system-path="node/3318">Русский</a></li><li hreflang="vi" data-drupal-link-system-path="node/3318" class="vi"><a href="/vi/statistics/soi-tax-stats-county-data" class="language-link" lang="vi" hreflang="vi" data-drupal-link-system-path="node/3318">Tiếng Việt</a></li><li hreflang="ht" data-drupal-link-system-path="node/3318" class="ht"><a href="/ht/statistics/soi-tax-stats-county-data" class="language-link" lang="ht" hreflang="ht" data-drupal-link-system-path="node/3318">Kreyòl ayisyen</a></li></ul>
+    </div>
+
+    </div>
+
+<nav role="navigation" aria-labelledby="block-pup-irs-informationmenu-2-menu" id="block-pup-irs-informationmenu-2" data-block-plugin-id="system_menu_block:pup-info-menu" class="pup-nav-en">
+            
+  <h2 class="visually-hidden" id="block-pup-irs-informationmenu-2-menu">Information Menu</h2>
+  
+
+        
+      <ul data-block="pup_irs_informationmenu_2" class="menu menu--pup-info-menu nav">
+                      <li class="first">
+                                        <a href="/help/let-us-help-you" title="Help" data-drupal-link-system-path="node/16916">Help</a>
+              </li>
+                      <li>
+                                        <a href="/newsroom" title="News" data-drupal-link-system-path="node/19646">News</a>
+              </li>
+                      <li>
+                                        <a href="/tax-professionals" data-drupal-link-system-path="node/11">Tax Pros</a>
+              </li>
+                      <li class="last">
+                                        <a href="/your-account" data-drupal-link-system-path="node/126776">Sign in</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+              </div>
+              
+                            <div class="col-xs-10 hidden-md hidden-lg no-gutter">
+                <ul class="pup-header-mobile-menu pull-right">
+                  <li>
+                    <button type="button" id="pup-mobile-navbar-searchBtn" class="btn btn-link pup-header-mobile-menu__searchBtn" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar-collapse">
+                      Search
+                    </button>
+                                          <div id="navbar-collapse"  class="pup-header-content-rt col-xs-12 hidden-md hidden-lg collapse no-gutter">
+                          <div class="region region-search-form-collapsible">
+      <div class="pup-site-header-search-block pup-search-box-hidden">
+            <div class="pup-site-header-search-block__searchfield">
+        
+<form data-block="exposedformpup_site_index_searchsite_search_srt_relevance_4" action="/site-index-search" method="get" id="views-exposed-form-pup-site-index-search-site-search-srt-relevance" accept-charset="UTF-8" novalidate>
+  <div class="form--inline form-inline clearfix">
+  
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete form-item-search js-form-item-search">
+
+
+    
+    
+            <label for="search-main-mobile" class="control-label">Search</label>
+    
+    <input placeholder="Search" aria-label="Search" data-drupal-selector="edit-search" class="form-text form-control" type="text" id="search-main-mobile" name="search" value="" size="30" maxlength="128" />
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-select js-form-type-select form-item-field-pup-historical-1 js-form-item-field-pup-historical-1">
+
+
+    
+    
+            <label for="edit-field-pup-historical-1" class="control-label">Include Historical Content</label>
+    
+    <div class="select-style select-wrapper"><select  data-drupal-selector="edit-field-pup-historical-1" class="form-select form-control" id="edit-field-pup-historical-1" name="field_pup_historical_1"><option value="All" >- Any -</option><option value="1"  selected="selected">No</option></select></div>
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-select js-form-type-select form-item-field-pup-historical js-form-item-field-pup-historical">
+
+
+    
+    
+            <label for="edit-field-pup-historical" class="control-label">Include Historical Content</label>
+    
+    <div class="select-style select-wrapper"><select  data-drupal-selector="edit-field-pup-historical" class="form-select form-control" id="edit-field-pup-historical" name="field_pup_historical"><option value="All" >- Any -</option><option value="1"  selected="selected">No</option></select></div>
+
+    
+
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions"><button title="Search" data-drupal-selector="edit-submit-pup-site-index-search" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-pup-site-index-search" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button></div>
+
+</div>
+
+</form>
+      </div>
+      </div>
+
+  </div>
+
+                      </div>
+                                      </li>
+                                      <li id="pup-mobile-navbar-infoBtn" class="pup-header-mobile-menu__infoBtn">
+                        <div class="region region-help-menu-mobile">
+    
+
+
+                                                                                          <a href="/your-account" data-drupal-link-system-path="node/126776">Sign in</a>
+                          
+
+  </div>
+
+                    </li>
+                                    <li>
+                    <button type="button" id="pup-mobile-navbar-menuBtn" class="btn btn-link pup-header-mobile-menu__menuBtn mobile-menu-icon" data-target="#pup-header-nav-collapse">
+                      Menu
+                    </button>
+                  </li>
+                </ul>
+              </div>
+          
+
+        </div>       </div>
+    </div> 
+          <div class="header-nav hidden-xs hidden-sm">
+          <div class="container-fluid">
+              <div class="region region-site-navigation">
+    <nav role="navigation" aria-labelledby="block-mainnavigationmobile-2-menu" id="block-mainnavigationmobile-2" data-block-plugin-id="system_menu_block:main_mobile">
+            
+  <h2 class="visually-hidden" id="block-mainnavigationmobile-2-menu">Main navigation</h2>
+  
+
+        
+
+              <a id="stickyNavLogo" class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
+        <img src="/themes/custom/pup_base/IRS-Logo.svg" alt="Home">
+      </a>
+      <ul data-block="mainnavigationmobile_2" class="menu nav" id="accessible-megamenu-navigation">
+                                                                <li class="expanded megamenu-top-nav-item dropdown">	
+          <a href="/filing" aria-controls="accessible-megamenu-file-submenu" aria-expanded="false" aria-label="File menu has additional options. Use the spacebar to open the File sub menu or enter to navigate to the File page." role="application" id="accessible-megamenu-nav-item-0">File</a>
+                                  <ul data-block="mainnavigationmobile_2" class="menu dropdown-menu" id="accessible-megamenu-file-submenu" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-nav-item-0" role="region">
+       <div class="mega-menu-container">
+                                                                        <li><a href="/filing" class="mobile-only-text" id="accessible-megamenu-file-submenu-0" data-drupal-link-system-path="node/19656">Overview</a>
+                  </li>
+                                                                                <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-file-submenu-1">INFORMATION FOR…</span>
+                  </li>
+                                                                      <li><a href="/individual-tax-filing" id="accessible-megamenu-file-submenu-2" data-drupal-link-system-path="node/142191">Individuals</a>
+                  </li>
+                                                                      <li><a href="/businesses" id="accessible-megamenu-file-submenu-3" data-drupal-link-system-path="node/18976">Business and self-employed</a>
+                  </li>
+                                                                      <li><a href="/charities-and-nonprofits" id="accessible-megamenu-file-submenu-4" data-drupal-link-system-path="node/58461">Charities and nonprofits</a>
+                  </li>
+                                                                      <li><a href="/individuals/international-taxpayers" id="accessible-megamenu-file-submenu-5" data-drupal-link-system-path="node/19696">International filers</a>
+                  </li>
+                                                                      <li><a href="/retirement-plans" id="accessible-megamenu-file-submenu-6" data-drupal-link-system-path="node/19741">Retirement</a>
+                  </li>
+                                                                      <li><a href="/government-entities" id="accessible-megamenu-file-submenu-7" data-drupal-link-system-path="node/19586">Governments and tax-exempt bonds</a>
+                  </li>
+                                                                      <li><a href="/government-entities/indian-tribal-governments" id="accessible-megamenu-file-submenu-8" data-drupal-link-system-path="node/19601">Indian Tribal Governments</a>
+                  </li>
+                                                          </div>
+                                                  <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-file-submenu-9">FILING FOR INDIVIDUALS</span>
+                  </li>
+                                                                      <li><a href="/filing/individuals/how-to-file" id="accessible-megamenu-file-submenu-10" data-drupal-link-system-path="node/22856">How to file</a>
+                  </li>
+                                                                      <li><a href="/filing/individuals/when-to-file" id="accessible-megamenu-file-submenu-11" data-drupal-link-system-path="node/22726">When to file</a>
+                  </li>
+                                                                      <li><a href="/filing/where-to-file-tax-returns-addresses-listed-by-return-type" id="accessible-megamenu-file-submenu-12" data-drupal-link-system-path="node/2442">Where to file</a>
+                  </li>
+                                                                      <li><a href="/filing/individuals/update-my-information" id="accessible-megamenu-file-submenu-13" data-drupal-link-system-path="node/22861">Update your information</a>
+                  </li>
+                                                          </div>
+                                                  <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-file-submenu-14">POPULAR</span>
+                  </li>
+                                                                      <li><a href="/individuals/get-transcript" id="accessible-megamenu-file-submenu-15" data-drupal-link-system-path="node/136676">Tax record (transcript)</a>
+                  </li>
+                                                                      <li><a href="/businesses/small-businesses-self-employed/get-an-employer-identification-number" id="accessible-megamenu-file-submenu-16" data-drupal-link-system-path="node/17153">Apply for an Employer ID Number (EIN)</a>
+                  </li>
+                                                                      <li><a href="/filing/file-an-amended-return" id="accessible-megamenu-file-submenu-17" data-drupal-link-system-path="node/128551">Amend return</a>
+                  </li>
+                                                                      <li><a href="/identity-theft-fraud-scams/get-an-identity-protection-pin" id="accessible-megamenu-file-submenu-18" data-drupal-link-system-path="node/16696">Identity Protection PIN (IP PIN)</a>
+                  </li>
+                                                                      <li><a href="/file-your-taxes-for-free" id="accessible-megamenu-file-submenu-19" data-drupal-link-system-path="node/141421">File your taxes for free</a>
+                  </li>
+                      </div>
+    
+                </div>
+        </ul>
+      
+            </li>
+                                                              <li class="expanded megamenu-top-nav-item dropdown">	
+          <a href="/payments" aria-controls="accessible-megamenu-pay-submenu" aria-expanded="false" aria-label="Pay menu has additional options. Use the spacebar to open the Pay sub menu or enter to navigate to the Pay page." role="application" id="accessible-megamenu-nav-item-1">Pay</a>
+                                  <ul data-block="mainnavigationmobile_2" class="menu dropdown-menu" id="accessible-megamenu-pay-submenu" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-nav-item-1" role="region">
+       <div class="mega-menu-container">
+                                                                        <li><a href="/payments" class="mobile-only-text" id="accessible-megamenu-pay-submenu-0" data-drupal-link-system-path="node/19551">Overview</a>
+                  </li>
+                                                                                <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-pay-submenu-1">PAY BY</span>
+                  </li>
+                                                                      <li><a href="/payments/direct-pay-with-bank-account" id="accessible-megamenu-pay-submenu-2" data-drupal-link-system-path="node/10224">Bank Account (Direct Pay)</a>
+                  </li>
+                                                                      <li><a href="/payments/online-payment-agreement-application" id="accessible-megamenu-pay-submenu-3" data-drupal-link-system-path="node/16716">Payment Plan (Installment Agreement)</a>
+                  </li>
+                                                                      <li><a href="/payments/eftps-the-electronic-federal-tax-payment-system" id="accessible-megamenu-pay-submenu-4" data-drupal-link-system-path="node/15488">Electronic Federal Tax Payment System (EFTPS)</a>
+                  </li>
+                                                          </div>
+                                                  <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-pay-submenu-5">POPULAR</span>
+                  </li>
+                                                                      <li><a href="/your-account" id="accessible-megamenu-pay-submenu-6" data-drupal-link-system-path="node/126776">Your Online Account</a>
+                  </li>
+                                                                      <li><a href="/individuals/tax-withholding-estimator" id="accessible-megamenu-pay-submenu-7" data-drupal-link-system-path="node/107181">Tax Withholding Estimator</a>
+                  </li>
+                                                                      <li><a href="/businesses/small-businesses-self-employed/estimated-taxes" id="accessible-megamenu-pay-submenu-8" data-drupal-link-system-path="node/17135">Estimated Taxes</a>
+                  </li>
+                                                                      <li><a href="/payments/penalties" id="accessible-megamenu-pay-submenu-9" data-drupal-link-system-path="node/91826">Penalties</a>
+                  </li>
+                      </div>
+    
+                </div>
+        </ul>
+      
+            </li>
+                                                              <li class="expanded megamenu-top-nav-item dropdown">	
+          <a href="/refunds" aria-controls="accessible-megamenu-refunds-submenu" aria-expanded="false" aria-label="Refunds menu has additional options. Use the spacebar to open the Refunds sub menu or enter to navigate to the Refunds page." role="application" id="accessible-megamenu-nav-item-2">Refunds</a>
+                                  <ul data-block="mainnavigationmobile_2" class="menu dropdown-menu" id="accessible-megamenu-refunds-submenu" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-nav-item-2" role="region">
+       <div class="mega-menu-container">
+                                                                        <li><a href="/refunds" class="mobile-only-text" id="accessible-megamenu-refunds-submenu-0" data-drupal-link-system-path="node/130131">Overview</a>
+                  </li>
+                                                                    <div class="mega-menu-column no-header-extra-padding">
+                                                    <li><a href="/wheres-my-refund" class="mega-menu-column-header" id="accessible-megamenu-refunds-submenu-1" data-drupal-link-system-path="node/19556">Where’s My Refund?</a>
+                  </li>
+                                                                      <li><a href="/refunds/get-your-refund-faster-tell-irs-to-direct-deposit-your-refund-to-one-two-or-three-accounts" id="accessible-megamenu-refunds-submenu-2" data-drupal-link-system-path="node/10971">Direct deposit</a>
+                  </li>
+                                                                      <li><a href="/filing/wheres-my-amended-return" id="accessible-megamenu-refunds-submenu-3" data-drupal-link-system-path="node/17175">Where’s My Amended Return?</a>
+                  </li>
+                      </div>
+    
+                </div>
+        </ul>
+      
+            </li>
+                                                              <li class="expanded megamenu-top-nav-item dropdown">	
+          <a href="/credits-and-deductions" aria-controls="accessible-megamenu-credits-deductions-submenu" aria-expanded="false" aria-label="Credits &amp; Deductions menu has additional options. Use the spacebar to open the Credits &amp; Deductions sub menu or enter to navigate to the Credits &amp; Deductions page." role="application" id="accessible-megamenu-nav-item-3">Credits & Deductions</a>
+                                  <ul data-block="mainnavigationmobile_2" class="menu dropdown-menu" id="accessible-megamenu-credits-deductions-submenu" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-nav-item-3" role="region">
+       <div class="mega-menu-container">
+                                                                        <li><a href="/credits-and-deductions" class="mobile-only-text" id="accessible-megamenu-credits-deductions-submenu-0" data-drupal-link-system-path="node/80206">Overview</a>
+                  </li>
+                                                                                <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-credits-deductions-submenu-1">INFORMATION FOR...</span>
+                  </li>
+                                                                      <li><a href="/credits-and-deductions-for-individuals" title="For you and your family" id="accessible-megamenu-credits-deductions-submenu-2" data-drupal-link-system-path="node/5">Individuals</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            For you and your family
+          </span>
+        </li>
+                                                                      <li><a href="/credits-deductions/businesses" title="Standard mileage and other information" id="accessible-megamenu-credits-deductions-submenu-3" data-drupal-link-system-path="node/19941">Businesses & Self-Employed</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Standard mileage and other information
+          </span>
+        </li>
+                                                          </div>
+                                                  <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-credits-deductions-submenu-4">POPULAR</span>
+                  </li>
+                                                                      <li><a href="/credits-deductions/individuals/earned-income-tax-credit-eitc" id="accessible-megamenu-credits-deductions-submenu-5" data-drupal-link-system-path="node/18966">Earned Income Credit (EITC)</a>
+                  </li>
+                                                                      <li><a href="/credits-deductions/individuals/child-tax-credit" id="accessible-megamenu-credits-deductions-submenu-6" data-drupal-link-system-path="node/771">Child Tax Credit</a>
+                  </li>
+                                                                      <li><a href="/credits-deductions/clean-vehicle-and-energy-credits" id="accessible-megamenu-credits-deductions-submenu-7" data-drupal-link-system-path="node/126641">Clean Energy and Vehicle Credits</a>
+                  </li>
+                                                                      <li><a href="/help/ita/how-much-is-my-standard-deduction" id="accessible-megamenu-credits-deductions-submenu-8" data-drupal-link-system-path="node/5229">Standard Deduction</a>
+                  </li>
+                                                                      <li><a href="/retirement-plans" id="accessible-megamenu-credits-deductions-submenu-9" data-drupal-link-system-path="node/19741">Retirement Plans</a>
+                  </li>
+                      </div>
+    
+                </div>
+        </ul>
+      
+            </li>
+                                                              <li class="expanded megamenu-top-nav-item dropdown">	
+          <a href="/forms-instructions" aria-controls="accessible-megamenu-forms-instructions-submenu" aria-expanded="false" aria-label="Forms &amp; Instructions menu has additional options. Use the spacebar to open the Forms &amp; Instructions sub menu or enter to navigate to the Forms &amp; Instructions page." role="application" id="accessible-megamenu-nav-item-4">Forms & Instructions</a>
+                                  <ul data-block="mainnavigationmobile_2" class="menu dropdown-menu" id="accessible-megamenu-forms-instructions-submenu" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-nav-item-4" role="region">
+       <div class="mega-menu-container">
+                                                                        <li><a href="/forms-instructions" class="mobile-only-text" id="accessible-megamenu-forms-instructions-submenu-0" data-drupal-link-system-path="node/6">Overview</a>
+                  </li>
+                                                                                <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-forms-instructions-submenu-1">POPULAR FORMS & INSTRUCTIONS</span>
+                  </li>
+                                                                      <li><a href="/forms-pubs/about-form-1040" title="Individual Income Tax Return" id="accessible-megamenu-forms-instructions-submenu-2" data-drupal-link-system-path="node/16022">Form 1040</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Individual Income Tax Return
+          </span>
+        </li>
+                                                                      <li><a href="/instructions/i1040gi" title="Instructions for Form 1040 " id="accessible-megamenu-forms-instructions-submenu-3" data-drupal-link-system-path="node/100166">Form 1040 Instructions</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Instructions for Form 1040 
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-w-9" title="Request for Taxpayer Identification Number (TIN) and Certification" id="accessible-megamenu-forms-instructions-submenu-4" data-drupal-link-system-path="node/15825">Form W-9</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Request for Taxpayer Identification Number (TIN) and Certification
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-4506-t" title="Request for Transcript of Tax Return" id="accessible-megamenu-forms-instructions-submenu-5" data-drupal-link-system-path="node/10554">Form 4506-T</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Request for Transcript of Tax Return
+          </span>
+        </li>
+                                                          </div>
+                                      <div class="mega-menu-column extra-padding">
+                                                    <li><a href="/forms-pubs/about-form-w-4" class="mega-menu-column-header" title="Employee&#039;s Withholding Certificate" id="accessible-megamenu-forms-instructions-submenu-6" data-drupal-link-system-path="node/15498">Form W-4</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Employee&#039;s Withholding Certificate
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-941" title="Employer&#039;s Quarterly Federal Tax Return" id="accessible-megamenu-forms-instructions-submenu-7" data-drupal-link-system-path="node/53446">Form 941</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Employer&#039;s Quarterly Federal Tax Return
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-w-2" title="Wage and Tax Statement" id="accessible-megamenu-forms-instructions-submenu-8" data-drupal-link-system-path="node/5737">Form W-2</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Wage and Tax Statement
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-9465" title="Installment Agreement Request" id="accessible-megamenu-forms-instructions-submenu-9" data-drupal-link-system-path="node/15532">Form 9465</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Installment Agreement Request
+          </span>
+        </li>
+                                                          </div>
+                                                  <div class="mega-menu-column">
+                                                    <li><span class="mega-menu-column-header" id="accessible-megamenu-forms-instructions-submenu-10">POPULAR FOR TAX PROS</span>
+                  </li>
+                                                                      <li><a href="/forms-pubs/about-form-1040x" title="Amended Individual Income Tax Return" id="accessible-megamenu-forms-instructions-submenu-11" data-drupal-link-system-path="node/19996">Form 1040-X</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Amended Individual Income Tax Return
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-2848" title="Power of Attorney" id="accessible-megamenu-forms-instructions-submenu-12" data-drupal-link-system-path="node/15839">Form 2848</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Power of Attorney
+          </span>
+        </li>
+                                                                      <li><a href="/forms-pubs/about-form-w-7" title="Apply for an ITIN" id="accessible-megamenu-forms-instructions-submenu-13" data-drupal-link-system-path="node/15536">Form W-7</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Apply for an ITIN
+          </span>
+        </li>
+                                                                      <li><a href="/tax-professionals/office-of-professional-responsibility-and-circular-230" title="Regulations Governing Practice before the IRS" id="accessible-megamenu-forms-instructions-submenu-14" data-drupal-link-system-path="node/125016">Circular 230</a>
+                  </li>
+              <li class="mega-menu-helper-text">
+          <span class="desktop-only-text">
+            Regulations Governing Practice before the IRS
+          </span>
+        </li>
+                      </div>
+    
+                </div>
+        </ul>
+      
+            </li>
+              
+            </ul>
+      
+
+  </nav>
+  <div class="pup-site-header-search-block pup-search-box-hidden">
+            <div class="pup-site-header-search-block__searchfield">
+        
+<form data-block="pup_irs_exposedformpup_site_index_searchsite_search_srt_relevance_2" action="/site-index-search" method="get" id="views-exposed-form-pup-site-index-search-site-search-srt-relevance--2" accept-charset="UTF-8" novalidate>
+  <div class="form--inline form-inline clearfix">
+  
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete form-item-search js-form-item-search">
+
+
+    
+    
+            <label for="search-main" class="control-label">Search</label>
+    
+    <input placeholder="Search" aria-label="Search" data-drupal-selector="edit-search" class="form-text form-control" type="text" id="search-main" name="search" value="" size="30" maxlength="128" />
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-select js-form-type-select form-item-field-pup-historical-1 js-form-item-field-pup-historical-1">
+
+
+    
+    
+            <label for="edit-field-pup-historical-1--2" class="control-label">Include Historical Content</label>
+    
+    <div class="select-style select-wrapper"><select  data-drupal-selector="edit-field-pup-historical-1" class="form-select form-control" id="edit-field-pup-historical-1--2" name="field_pup_historical_1"><option value="All" >- Any -</option><option value="1"  selected="selected">No</option></select></div>
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-item form-group js-form-item form-type-select js-form-type-select form-item-field-pup-historical js-form-item-field-pup-historical">
+
+
+    
+    
+            <label for="edit-field-pup-historical--2" class="control-label">Include Historical Content</label>
+    
+    <div class="select-style select-wrapper"><select  data-drupal-selector="edit-field-pup-historical" class="form-select form-control" id="edit-field-pup-historical--2" name="field_pup_historical"><option value="All" >- Any -</option><option value="1"  selected="selected">No</option></select></div>
+
+    
+
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--2"><button title="Search" data-drupal-selector="edit-submit-pup-site-index-search-2" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-pup-site-index-search--2" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button></div>
+
+</div>
+
+</form>
+      </div>
+      </div>
+
+  </div>
+
+          </div>
+      </div>
+    
+          <div id="pup-info-menu-collapse"  class="pup-header-content-rt col-xs-12 hidden-md hidden-lg collapse no-gutter">
+          <div class="region region-info-menu-collapsible">
+    <nav role="navigation" aria-labelledby="block-pup-irs-informationmenu-menu" id="block-pup-irs-informationmenu" data-block-plugin-id="system_menu_block:pup-info-menu" class="pup-nav-en">
+            
+  <h2 class="visually-hidden" id="block-pup-irs-informationmenu-menu">Information Menu</h2>
+  
+
+        
+      <ul data-block="pup_irs_informationmenu" class="menu menu--pup-info-menu nav">
+                      <li class="first">
+                                        <a href="/help/let-us-help-you" title="Help" data-drupal-link-system-path="node/16916">Help</a>
+              </li>
+                      <li>
+                                        <a href="/newsroom" title="News" data-drupal-link-system-path="node/19646">News</a>
+              </li>
+                      <li>
+                                        <a href="/tax-professionals" data-drupal-link-system-path="node/11">Tax Pros</a>
+              </li>
+                      <li class="last">
+                                        <a href="/your-account" data-drupal-link-system-path="node/126776">Sign in</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+      </div>
+    
+          <div id="pup-header-nav-collapse"  class="pup-header-content-rt col-xs-12 hidden-md hidden-lg collapse no-gutter">
+          <div class="region region-header-nav-collapsible">
+    <section id="block-accordionmainnavigationmobile" data-block-plugin-id="accordion_menus_block:main_mobile" class="block block-accordion-menus block-accordion-menus-blockmain-mobile clearfix">
+  
+    
+
+      <div class="accordion_menus_block_container main_mobile">
+  <h2 class="accordion-title">
+    <a href="#">File</a>
+  </h2>
+  <div class="accordion_menus-block-content">
+    <ul><li><a href="/filing" class="mobile-only-text">Overview</a></li><li><span class="mega-menu-column-header">INFORMATION FOR…</span></li><li><a href="/individual-tax-filing">Individuals</a></li><li><a href="/businesses">Business and self-employed</a></li><li><a href="/charities-and-nonprofits">Charities and nonprofits</a></li><li><a href="/individuals/international-taxpayers">International filers</a></li><li><a href="/retirement-plans">Retirement</a></li><li><a href="/government-entities">Governments and tax-exempt bonds</a></li><li><a href="/government-entities/indian-tribal-governments">Indian Tribal Governments</a></li><li><span class="mega-menu-column-header">FILING FOR INDIVIDUALS</span></li><li><a href="/filing/individuals/how-to-file">How to file</a></li><li><a href="/filing/individuals/when-to-file">When to file</a></li><li><a href="/filing/where-to-file-tax-returns-addresses-listed-by-return-type">Where to file</a></li><li><a href="/filing/individuals/update-my-information">Update your information</a></li><li><span class="mega-menu-column-header">POPULAR</span></li><li><a href="/individuals/get-transcript">Tax record (transcript)</a></li><li><a href="/businesses/small-businesses-self-employed/get-an-employer-identification-number">Apply for an Employer ID Number (EIN)</a></li><li><a href="/filing/file-an-amended-return">Amend return</a></li><li><a href="/identity-theft-fraud-scams/get-an-identity-protection-pin">Identity Protection PIN (IP PIN)</a></li><li><a href="/file-your-taxes-for-free">File your taxes for free</a></li></ul>
+  </div>
+  <h2 class="accordion-title">
+    <a href="#">Pay</a>
+  </h2>
+  <div class="accordion_menus-block-content">
+    <ul><li><a href="/payments" class="mobile-only-text">Overview</a></li><li><span class="mega-menu-column-header">PAY BY</span></li><li><a href="/payments/direct-pay-with-bank-account">Bank Account (Direct Pay)</a></li><li><a href="/payments/online-payment-agreement-application">Payment Plan (Installment Agreement)</a></li><li><a href="/payments/eftps-the-electronic-federal-tax-payment-system">Electronic Federal Tax Payment System (EFTPS)</a></li><li><span class="mega-menu-column-header">POPULAR</span></li><li><a href="/your-account">Your Online Account</a></li><li><a href="/individuals/tax-withholding-estimator">Tax Withholding Estimator</a></li><li><a href="/businesses/small-businesses-self-employed/estimated-taxes">Estimated Taxes</a></li><li><a href="/payments/penalties">Penalties</a></li></ul>
+  </div>
+  <h2 class="accordion-title">
+    <a href="#">Refunds</a>
+  </h2>
+  <div class="accordion_menus-block-content">
+    <ul><li><a href="/refunds" class="mobile-only-text">Overview</a></li><li><a href="/wheres-my-refund" class="mega-menu-column-header">Where’s My Refund?</a></li><li><a href="/refunds/get-your-refund-faster-tell-irs-to-direct-deposit-your-refund-to-one-two-or-three-accounts">Direct deposit</a></li><li><a href="/filing/wheres-my-amended-return">Where’s My Amended Return?</a></li></ul>
+  </div>
+  <h2 class="accordion-title">
+    <a href="#">Credits &amp; Deductions</a>
+  </h2>
+  <div class="accordion_menus-block-content">
+    <ul><li><a href="/credits-and-deductions" class="mobile-only-text">Overview</a></li><li><span class="mega-menu-column-header">INFORMATION FOR...</span></li><li><a href="/credits-and-deductions-for-individuals" title="For you and your family">Individuals</a></li><li><a href="/credits-deductions/businesses" title="Standard mileage and other information">Businesses &amp; Self-Employed</a></li><li><span class="mega-menu-column-header">POPULAR</span></li><li><a href="/credits-deductions/individuals/earned-income-tax-credit-eitc">Earned Income Credit (EITC)</a></li><li><a href="/credits-deductions/individuals/child-tax-credit">Child Tax Credit</a></li><li><a href="/credits-deductions/clean-vehicle-and-energy-credits">Clean Energy and Vehicle Credits</a></li><li><a href="/help/ita/how-much-is-my-standard-deduction">Standard Deduction</a></li><li><a href="/retirement-plans">Retirement Plans</a></li></ul>
+  </div>
+  <h2 class="accordion-title">
+    <a href="#">Forms &amp; Instructions</a>
+  </h2>
+  <div class="accordion_menus-block-content">
+    <ul><li><a href="/forms-instructions" class="mobile-only-text">Overview</a></li><li><span class="mega-menu-column-header">POPULAR FORMS &amp; INSTRUCTIONS</span></li><li><a href="/forms-pubs/about-form-1040" title="Individual Income Tax Return">Form 1040</a></li><li><a href="/instructions/i1040gi" title="Instructions for Form 1040 ">Form 1040 Instructions</a></li><li><a href="/forms-pubs/about-form-w-9" title="Request for Taxpayer Identification Number (TIN) and Certification">Form W-9</a></li><li><a href="/forms-pubs/about-form-4506-t" title="Request for Transcript of Tax Return">Form 4506-T</a></li><li><a href="/forms-pubs/about-form-w-4" class="mega-menu-column-header" title="Employee&#039;s Withholding Certificate">Form W-4</a></li><li><a href="/forms-pubs/about-form-941" title="Employer&#039;s Quarterly Federal Tax Return">Form 941</a></li><li><a href="/forms-pubs/about-form-w-2" title="Wage and Tax Statement">Form W-2</a></li><li><a href="/forms-pubs/about-form-9465" title="Installment Agreement Request">Form 9465</a></li><li><span class="mega-menu-column-header">POPULAR FOR TAX PROS</span></li><li><a href="/forms-pubs/about-form-1040x" title="Amended Individual Income Tax Return">Form 1040-X</a></li><li><a href="/forms-pubs/about-form-2848" title="Power of Attorney">Form 2848</a></li><li><a href="/forms-pubs/about-form-w-7" title="Apply for an ITIN">Form W-7</a></li><li><a href="/tax-professionals/office-of-professional-responsibility-and-circular-230" title="Regulations Governing Practice before the IRS">Circular 230</a></li></ul>
+  </div>
+</div>
+
+  </section>
+
+<nav role="navigation" aria-labelledby="block-pup-irs-mainnavigation-menu" id="block-pup-irs-mainnavigation" data-block-plugin-id="system_menu_block:main">
+            
+  <h2 class="visually-hidden" id="block-pup-irs-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+        <ul data-block="pup_irs_mainnavigation" class="menu nav navbar-nav">
+                                          <li>
+            <a href="/filing" class="top-level-nav-item">File</a>
+                            </li>
+                                      <li>
+            <a href="/payments" class="top-level-nav-item">Pay</a>
+                            </li>
+                                      <li>
+            <a href="/refunds" class="top-level-nav-item">Refunds</a>
+                            </li>
+                                      <li>
+            <a href="/credits-and-deductions" class="top-level-nav-item">Credits &amp; Deductions</a>
+                            </li>
+                                      <li>
+            <a href="/forms-instructions" class="top-level-nav-item">Forms &amp; Instructions</a>
+                            </li>
+        </ul>
+        
+
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-pup-irs-infomenumobile-menu" id="block-pup-irs-infomenumobile" data-block-plugin-id="system_menu_block:info-menu-mobile">
+            
+  <h2 class="visually-hidden" id="block-pup-irs-infomenumobile-menu">Info Menu Mobile</h2>
+  
+
+        
+      <ul data-block="pup_irs_infomenumobile" class="menu menu--info-menu-mobile nav">
+                      <li class="first">
+                                        <a href="/charities-and-nonprofits" data-drupal-link-system-path="node/58461">Charities &amp; Nonprofits</a>
+              </li>
+                      <li>
+                                        <a href="/help/let-us-help-you" title="Help" data-drupal-link-system-path="node/16916">Help</a>
+              </li>
+                      <li>
+                                        <a href="/newsroom" title="News" data-drupal-link-system-path="node/19646">News</a>
+              </li>
+                      <li class="last">
+                                        <a href="/tax-professionals" title="Tax Pros" data-drupal-link-system-path="node/11">Tax Pros</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+      </div>
+    
+   </header>
+
+<div class="pup-page-node-type-article-page__banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+                            <div class="region region-breadcrumbs">
+        <nav aria-label="Breadcrumbs">
+    <ol class="breadcrumb">
+      <li lang=en xml:lang=en ><a href="/" lang=en xml:lang=en >Home</a></li><li lang=en xml:lang=en ><a href="/about-irs" lang=en xml:lang=en >Our Agency</a></li><li lang=en xml:lang=en ><a href="/statistics" lang=en xml:lang=en >Tax statistics</a></li><li lang=en xml:lang=en ><a href="/statistics/soi-tax-stats-individual-tax-statistics" lang=en xml:lang=en >Individual tax statistics</a></li><li lang=en xml:lang=en ><a href="/statistics/soi-tax-stats-data-by-geographic-area" lang=en xml:lang=en >Data by geographic areas</a></li><li  class="active">            SOI Tax Stats - County data
+            </li>
+    </ol>
+  </nav>
+
+
+  </div>
+
+                          <h1 class="pup-page-node-type-article-page__title">SOI Tax Stats - County data</h1>
+              </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+          <div class="col-sm-12">
+          <div class="region region-language-switcher">
+    <section id="block-pup-irs-languageswitchercontent" data-block-plugin-id="pup_language_switcher:language_interface" class="block block-pup-language-switcher block-pup-language-switcherlanguage-interface clearfix">
+  
+    
+
+      &nbsp;
+  </section>
+
+
+  </div>
+
+      </div>
+      </div>
+</div>
+
+<div class="pup-main-container container">
+  <div class="row">
+
+                    <div class="sidebar-left col-sm-12 col-md-3 col-lg-3">
+          <div class="region region-sidebar-first">
+    <section id="block-pup-irs-puphierarchicaltaxonomymenu" data-block-plugin-id="pup_hierarchical_taxonomy_menu" class="block block-pup-hierarchical-taxonomy-menu clearfix">
+  
+    
+
+      
+
+
+              <div class="pup-second-nav-header">
+        <h3 class="pup-second-nav-heading">
+		<button id="pup-snav" class="pup-second-nav-btn hidden-md hidden-lg" aria-controls="pup-snav-menu-links" aria-expanded="false" type="button">More In Our Agency
+          <i aria-hidden="true" class="fa fa-plus"></i>
+        </button>
+        </h3>
+      </div>
+      <div id="pup-snav-menu-links" aria-labelledby="pup-snav">
+      <ul class="menu nav pup-second-nav">
+              <li class="level-2" data-indent-level="2">
+        <a href="/about-irs/irs-organization" title="IRS organization" id="term-29326" rel="child" lang="en" xml:lang="en" hreflang="en">IRS organization</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/a-closer-look" title="A Closer Look" id="term-28401" rel="child" lang="en" xml:lang="en" hreflang="en">A Closer Look</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/about-irs/financial-and-budget-reports" title="Financial and budget reports" id="term-29401" rel="child" lang="en" xml:lang="en" hreflang="en">Financial and budget reports</a>
+              </li>
+          <li class="level-2 is-active-trail" data-indent-level="2">
+        <a href="/statistics" title="Tax statistics" id="term-18801" rel="parent" lang="en" xml:lang="en" hreflang="en">Tax statistics</a>
+                                <ul class="inner">
+              <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-products-publications-and-papers" title="Products and publications" id="term-18831" rel="child" lang="en" xml:lang="en" hreflang="en">Products and publications</a>
+              </li>
+          <li class="level-3 is-active-parent" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-individual-tax-statistics" title="Individual tax statistics" id="term-18826" rel="parent" lang="en" xml:lang="en" hreflang="en">Individual tax statistics</a>
+                                <ul class="inner">
+              <li class="level-4" data-indent-level="4">
+        <a href="/statistics/soi-tax-stats-individual-tax-statistics" title="Individual income tax statistics" id="term-28571" rel="child" lang="en" xml:lang="en" hreflang="en">Individual income tax statistics</a>
+              </li>
+          <li class="level-4" data-indent-level="4">
+        <a href="/statistics/soi-tax-stats-international-individual-tax-statistics" title="International individual tax statistics" id="term-28576" rel="child" lang="en" xml:lang="en" hreflang="en">International individual tax statistics</a>
+              </li>
+          <li class="level-4" data-indent-level="4">
+        <a href="/statistics/soi-tax-stats-personal-wealth-statistics" title="Personal wealth statistics" id="term-28581" rel="child" lang="en" xml:lang="en" hreflang="en">Personal wealth statistics</a>
+              </li>
+          <li class="level-4" data-indent-level="4">
+        <a href="/statistics/filing-season-statistics" title="Filing season statistics" id="term-28586" rel="child" lang="en" xml:lang="en" hreflang="en">Filing season statistics</a>
+              </li>
+          <li class="level-4 is-active" data-indent-level="4">
+        <a href="/statistics/soi-tax-stats-data-by-geographic-area" title="Data by geographic areas" id="term-28596" rel="parent" lang="en" xml:lang="en" hreflang="en">Data by geographic areas</a>
+              </li>
+        </ul>
+    
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-business-tax-statistics" title="Business tax statistics" id="term-18806" rel="child" lang="en" xml:lang="en" hreflang="en">Business tax statistics</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-charitable-and-exempt-organizations-statistics" title="Charitable and exempt organization statistics" id="term-18816" rel="child" lang="en" xml:lang="en" hreflang="en">Charitable and exempt organization statistics</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-estate-gift-and-trust-statistics" title="Estate, gift and trust statistics" id="term-18821" rel="child" lang="en" xml:lang="en" hreflang="en">Estate, gift and trust statistics</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-irs-data-book" title="IRS Data Book" id="term-24786" rel="child" lang="en" xml:lang="en" hreflang="en">IRS Data Book</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-irs-operations-and-budget" title="IRS operations and budget" id="term-28561" rel="child" lang="en" xml:lang="en" hreflang="en">IRS operations and budget</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/irs-other-irs-data-and-research" title="Taxpayer research and IRS data" id="term-28771" rel="child" lang="en" xml:lang="en" hreflang="en">Taxpayer research and IRS data</a>
+              </li>
+          <li class="level-3" data-indent-level="3">
+        <a href="/statistics/soi-tax-stats-about-soi" title="About Statistics of Income (SOI)" id="term-28566" rel="child" lang="en" xml:lang="en" hreflang="en">About Statistics of Income (SOI)</a>
+              </li>
+        </ul>
+    
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/about-irs/procurement" title="Do business with the IRS" id="term-18776" rel="child" lang="en" xml:lang="en" hreflang="en">Do business with the IRS</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/compliance/criminal-investigation" title="Criminal Investigation" id="term-18731" rel="child" lang="en" xml:lang="en" hreflang="en">Criminal Investigation</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/compliance/whistleblower-office" title="Whistleblower Office" id="term-29726" rel="child" lang="en" xml:lang="en" hreflang="en">Whistleblower Office</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/individuals/irs-tax-volunteers" title="Volunteer" id="term-18841" rel="child" lang="en" xml:lang="en" hreflang="en">Volunteer</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/privacy-disclosure/irs-freedom-of-information-act" title="Freedom of Information Act" id="term-18751" rel="child" lang="en" xml:lang="en" hreflang="en">Freedom of Information Act</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/privacy-disclosure/irs-privacy-policy" title="Privacy policy" id="term-18756" rel="child" lang="en" xml:lang="en" hreflang="en">Privacy policy</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/about-irs/protecting-taxpayer-civil-rights" title="Civil rights" id="term-18726" rel="child" lang="en" xml:lang="en" hreflang="en">Civil rights</a>
+              </li>
+          <li class="level-2" data-indent-level="2">
+        <a href="/about-irs/vulnerability-disclosure-policy" title="Vulnerability disclosure policy" id="term-28991" rel="child" lang="en" xml:lang="en" hreflang="en">Vulnerability disclosure policy</a>
+              </li>
+        </ul>
+      </div>
+    
+
+
+  </section>
+
+
+  </div>
+
+    </div>
+    
+        
+    <div  class="pup-header-content-rt no-gutter col-sm-12 col-md-9">
+      <a id="main-content"></a>
+
+                    <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>  
+
+
+<article about="/statistics/soi-tax-stats-county-data" class="pup-article full clearfix row">
+
+  
+    
+
+  
+            <div class="col-md-12 col-sm-12 col-xs-12">
+        
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h2>Background information</h2>
+
+<p>SOI bases its county income data on the addresses reported on individual income tax returns filed with the IRS. Data are presented by county (including State totals) and are available for Tax Years1989through 2022. The data include:</p>
+
+<ul>
+	<li>Number of returns, which approximates the number of households</li>
+	<li>Number of personal exemptions, which approximates the population</li>
+	<li>Adjusted gross income</li>
+	<li>Wages and salaries</li>
+	<li>Dividends before exclusion</li>
+	<li>Interest received</li>
+</ul>
+
+<hr>
+<h2>County, metropolitan and micropolitan data</h2>
+
+<div class="panel panel-default collapsible-item" id="Collapsible1742324652757">
+<div class="panel-heading collapsible-item-heading" id="headingCollapsible1742324652757" role="tab">
+<h4 class="panel-title collapsible-item-title"><a aria-controls="collapseCollapsible1742324652757" aria-expanded="false" class="collapsed collapsible-item-title-link" data-toggle="collapse" href="#collapseCollapsible1742324652757" role="button">Tax years</a></h4>
+</div>
+
+<div aria-labelledby="headingCollapsible1742324652757" class="panel-collapse collapse collapsible-item-collapse" id="collapseCollapsible1742324652757" role="tabpanel">
+<div class="table-responsive">
+<div class="panel-body collapsible-item-body">
+<ul>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="1a701a6f-7e91-4a69-9b98-8a85afb2dde0" href="/statistics/soi-tax-stats-county-data-2011" title="SOI Tax Stats - County data - 2011">2011</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f3598d1d-2cf8-4b1d-964b-aa6a80189768" href="/statistics/soi-tax-stats-county-data-2012" title="SOI Tax Stats - County data - 2012">2012</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="3ff244d2-2706-419c-852f-4cdb0a51c7ee" href="/statistics/soi-tax-stats-county-data-2013" title="SOI Tax Stats - County data - 2013">2013</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="c03940cf-894d-4293-a487-5666e33316f2" href="/statistics/soi-tax-stats-county-data-2014" title="SOI Tax Stats - County data - 2014">2014</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="50e794c4-7e56-4081-b1d3-2f909f3776bd" href="/statistics/soi-tax-stats-county-data-2015" title="SOI Tax Stats - County data - 2015">2015</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="e9b75d4f-c81d-4d27-b76c-f5abca2fecac" href="/statistics/soi-tax-stats-county-data-2016" title="SOI Tax Stats - County data - 2016">2016</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="0a7a52e2-032a-44c9-a406-39f02916956a" href="/statistics/soi-tax-stats-county-data-2017" title="SOI Tax Stats County Data 2017">2017</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="338bd957-d488-4b35-adbd-314f17739067" href="/statistics/soi-tax-stats-county-data-2018" title="SOI Tax Stats county data 2018">2018</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="d67cf374-b39f-459b-adb9-c401f22674b1" href="/statistics/soi-tax-stats-county-data-2019" title="SOI Tax Stats county data 2019">2019</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="21a56c39-c97c-43ec-b9a1-07780156bc85" href="/statistics/soi-tax-stats-county-data-2020" title="SOI tax stats - County data 2020">2020</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="9df2c479-3cb6-4a57-a1cc-89e4f9ec2abb" href="/statistics/soi-tax-stats-county-data-2021" title="SOI Tax Stats - County data 2021">2021</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="2854317c-e6c8-4fed-8504-c875e9fa82e5" href="/statistics/soi-tax-stats-county-data-2022" title="SOI Tax Stats - County data 2022">2022</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<h2>County income data 1989–2010</h2>
+
+<p>County income data for years 1989 to 2010 are available as single Zip files containing all State Excel files. The files are compressed using the WinZip utility and must be downloaded and extracted before viewing or loading into any application. A <a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="1d8c39a3-3248-490a-9630-9b1d2101f032" href="http://www.winzip.com/" title="WinZip Link">free WinZip utility</a> is available, if needed.</p>
+
+<div class="accordion-list">
+<div class="table-responsive">
+<div aria-multiselectable="true" class="panel-group accordion-list-group accordion-list-items" id="accordion1742324095362" role="tablist">
+<div class="collapsible-item panel panel-default" id="Collapsible1742324652753">
+<div class="collapsible-item-heading panel-heading" id="headingCollapsible1742324652753" role="tab">
+<h4 class="collapsible-item-title panel-title"><a aria-controls="collapseCollapsible1742324652753" aria-expanded="false" class="collapsed collapsible-item-title-link" data-toggle="collapse" href="#collapseCollapsible1742324652753" role="button">Tax Years</a></h4>
+</div>
+
+<div aria-labelledby="headingCollapsible1742324652753" class="collapse collapsible-item-collapse panel-collapse" id="collapseCollapsible1742324652753" role="tabpanel">
+<div class="table-responsive">
+<div class="collapsible-item-body panel-body">
+<ul>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="060ba49f-4f40-4a75-837e-a173aa8a74df" href="https://www.irs.gov/pub/irs-soi/2010countydata.zip" title="2010countydata.zip">2010 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="63b33930-14a1-457e-a114-4732dade7d1b" href="https://www.irs.gov/pub/irs-soi/2009countyincome.zip" title="2009countyincome.zip">2009 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="c6db7137-8712-4d21-90da-a8c50c54ecfe" href="https://www.irs.gov/pub/irs-soi/2008countyincome.zip" title="2008countyincome.zip">2008 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="4d08ab6e-bdc1-4f56-b660-b78f218e0d42" href="https://www.irs.gov/pub/irs-soi/2007countyincome.zip" title="2007countyincome.zip">2007 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="5a993a4b-506a-40af-a063-3342e7779ba6" href="https://www.irs.gov/pub/irs-soi/2006countyincome.zip" title="2006countyincome.zip">2006 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="cde6cd63-ff91-448d-9ef5-9016d56f813b" href="https://www.irs.gov/pub/irs-soi/2005countyincome.zip" title="2005countyincome.zip">2005 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="7e7b131f-48fb-4afa-9e90-b1a20a81aec5" href="https://www.irs.gov/pub/irs-soi/2004countyincome.zip" title="2004countyincome.zip">2004 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a href="/pub/irs-soi/2003countyincome.zip">2003 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="f689637d-8fb8-4161-af31-93465d0fff1d" href="https://www.irs.gov/pub/irs-soi/2002countyincome.zip" title="2002countyincome.zip">2002 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="e69ddb3e-2378-4fdb-8952-78b8e1b01d1c" href="https://www.irs.gov/pub/irs-soi/2001countyincome.zip" title="2001countyincome.zip">2001 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="1601f4f1-e728-4f3a-99dd-7238f4a0831f" href="https://www.irs.gov/pub/irs-soi/2000countyincome.zip" title="2000countyincome.zip">2000 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="b05fa617-4a13-492a-9b67-a944c72bd44c" href="https://www.irs.gov/pub/irs-soi/1999countyincome.zip" title="1999CountyIncome.zip">1999 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="d0a91584-0699-4f49-9b2f-3073cf8e9c16" href="https://www.irs.gov/pub/irs-soi/1998countyincome.zip" title="1998CountyIncome.zip">1998 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="3e33997b-3559-4818-bfc0-1852d9c0da8d" href="https://www.irs.gov/pub/irs-soi/1997countyincome.zip" title="1997CountyIncome.zip">1997 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="c0b507bc-aeb3-41f9-9179-278d4ee94c89" href="https://www.irs.gov/pub/irs-soi/1996countyincome.zip" title="1996countyincome.zip">1996 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="2e5676c5-581c-404a-a157-7fb6c5e38545" href="https://www.irs.gov/pub/irs-soi/1995countyincome.zip" title="1995countyincome.zip">1995 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="eb5bf4aa-f0fb-4c5d-b2a6-a5d3d94b58ec" href="https://www.irs.gov/pub/irs-soi/1994countyincome.zip" title="1994countyincome.zip">1994 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="51c02d15-55ab-4a5e-8557-fc066b3f4d91" href="https://www.irs.gov/pub/irs-soi/1993countyincome.zip" title="1993countyincome.zip">1993 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="b1b2069d-2f16-4fa8-8270-3853dbf36a62" href="https://www.irs.gov/pub/irs-soi/1992countyincome.zip" title="1992countyincome.zip">1992 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="2598bf9b-f24f-4dfd-8d9b-9ba80e871d31" href="https://www.irs.gov/pub/irs-soi/1991countyincome.zip" title="1991countyincome.zip">1991 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="2afc38a3-7696-45eb-b29d-9d1186b9f575" href="https://www.irs.gov/pub/irs-soi/1990countyincome.zip" title="1990countyincome.zip">1990 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+	<li><a data-entity-substitution="pup_linkit_media" data-entity-type="media" data-entity-uuid="8942ad04-af5c-4caf-ac69-c9a0aead828c" href="https://www.irs.gov/pub/irs-soi/1989countyincome.zip" title="1989 County Income (ZIP)">1989 <span class="link-label label-file label-file-zip">ZIP</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<p>Follow these steps to extract files for the entire year (all States) or for an individual State.</p>
+
+<h3>To extract an entire year (all states) using WinZip:</h3>
+
+<ol>
+	<li>Double click the Zip file to open the WinZip utility.</li>
+	<li>Click and drag the folder to your desktop.</li>
+</ol>
+
+<p style="margin-left: 80px;"><strong>OR</strong></p>
+
+<ol>
+	<li>Double click the Zip file to open the WinZip utility (NOTE: SecureZIP users should follow the following steps).</li>
+	<li>Click the ‘Extract’ button. Ensure that the radio button, ‘All Files in Archive Selected’, is selected.</li>
+	<li>Select a destination folder.</li>
+	<li>Click the ‘Extract’ button.</li>
+</ol>
+
+<h3>To extract an individual state using WinZip:</h3>
+
+<ol>
+	<li>Double click the Zip file to open the WinZip utility.</li>
+	<li>Double click the folder.</li>
+	<li>Click and drag the desired Excel file(s) to your desktop.</li>
+</ol>
+
+<p style="margin-left: 80px;"><strong>OR</strong></p>
+
+<ol>
+	<li>Double click the Zip file to open the WinZip utility (NOTE: SecureZIP users should follow the following steps).</li>
+	<li>Highlight the desired Excel file(s).</li>
+	<li>Click the ‘Extract’ button. Ensure that radio button, ‘Selected Files/Folder’, is selected.</li>
+	<li>Select a destination folder.</li>
+	<li>Click the ‘Extract’ button.</li>
+</ol>
+</div>
+      
+      </div>
+      
+</article>
+
+
+  </div>
+
+          </div>
+
+    
+      </div>
+</div>
+
+<div class="container">
+    <div class="pup-bodycopy-footer">
+      <div class='pup-content-revision col-xs-12 col-sm-6'>
+                Page Last Reviewed or Updated: 18-Mar-2025
+      </div>
+            <div class='pup-share-menu col-xs-12 col-sm-6'>  <div class="region region-share-content">
+    <section id="block-pup-irs-addtoanybuttons" data-block-plugin-id="addtoany_block" class="block block-addtoany block-addtoany-block clearfix">
+  
+    
+
+      <span class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="https://www.irs.gov/statistics/soi-tax-stats-county-data" data-a2a-title="SOI Tax Stats - County data"><div class="pup-share-items"><ul class="nav navbar-nav navbar-right"><li class="dropdown"><a href="#" class="dropdown-toggle pup-share-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Share</a><ul class="dropdown-menu"><li><a class="pup-social-title a2a_button_facebook"><i class="fa fa-facebook-square social-icon" aria-hidden="true"></i><span>Facebook</span></a></li><li><a class="pup-social-title a2a_button_twitter" id="button_twitter"><svg width="24" class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg><span>Twitter</a></li><li><a class="pup-social-title a2a_button_linkedin"><i class="fa fa-linkedin-square social-icon" aria-hidden="true"></i><span>Linkedin</span></a></li><li role="separator" class="divider"></li></ul></li><li><button class="pup-print" type="button" onclick="javascript:print();">Print</button></li></ul></div></span>
+
+  </section>
+
+
+  </div>
+</div>
+          </div>
+</div>
+  <footer class="pup-footer" role="contentinfo" aria-label="footer">
+    <div class="footer-nav-wrapper container">
+              <div class="row menu">
+            <div class="region region-footer-first">
+    <nav role="navigation" aria-labelledby="block-footernavigation-2-menu" id="block-footernavigation-2" data-block-plugin-id="system_menu_block:pup-footer-navigation">
+            
+  <h2 class="visually-hidden" id="block-footernavigation-2-menu">Footer Navigation</h2>
+  
+
+        
+          <ul data-block="footernavigation_2" class="menu menu--pup-footer-navigation nav">
+                      <li class="expanded dropdown first">
+                                                                    <span class="footer-column-header navbar-text dropdown-toggle" data-toggle="dropdown">Our Agency <span class="caret"></span></span>
+                              <div role="region">
+        <ul data-block="footernavigation_2" class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/about-irs" data-drupal-link-system-path="node/18841">About IRS</a>
+              </li>
+                      <li>
+                                        <a href="https://jobs.irs.gov/">Careers</a>
+              </li>
+                      <li>
+                                        <a href="/statistics/soi-tax-stats-irs-operations-and-budget" data-drupal-link-system-path="node/506">Operations and Budget</a>
+              </li>
+                      <li>
+                                        <a href="/statistics" data-drupal-link-system-path="node/19746">Tax Statistics</a>
+              </li>
+                      <li>
+                                        <a href="/help/let-us-help-you" data-drupal-link-system-path="node/16916">Help</a>
+              </li>
+                      <li class="last">
+                                        <a href="/help/contact-your-local-irs-office" data-drupal-link-system-path="node/16903">Find a Local Office</a>
+              </li>
+        </ul>
+          </div>
+     
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <span class="footer-column-header navbar-text dropdown-toggle" data-toggle="dropdown">Know Your Rights <span class="caret"></span></span>
+                              <div role="region">
+        <ul data-block="footernavigation_2" class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/taxpayer-bill-of-rights" data-drupal-link-system-path="node/19686">Taxpayer Bill of Rights</a>
+              </li>
+                      <li>
+                                        <a href="/taxpayer-advocate" data-drupal-link-system-path="node/18846">Taxpayer Advocate Service</a>
+              </li>
+                      <li>
+                                        <a href="/appeals" data-drupal-link-system-path="node/19036">Independent Office of Appeals</a>
+              </li>
+                      <li>
+                                        <a href="/about-irs/protecting-taxpayer-civil-rights" data-drupal-link-system-path="node/15736">Civil Rights </a>
+              </li>
+                      <li>
+                                        <a href="/privacy-disclosure/irs-freedom-of-information">FOIA</a>
+              </li>
+                      <li>
+                                        <a href="https://home.treasury.gov/footer/no-fear-act">No FEAR Act Data</a>
+              </li>
+                      <li class="last">
+                                        <a href="/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs" data-drupal-link-system-path="node/101086">Reliance on Guidance</a>
+              </li>
+        </ul>
+          </div>
+     
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <span class="footer-column-header navbar-text dropdown-toggle" data-toggle="dropdown">Resolve an Issue <span class="caret"></span></span>
+                              <div role="region">
+        <ul data-block="footernavigation_2" class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/individuals/understanding-your-irs-notice-or-letter" data-drupal-link-system-path="node/16683">IRS Notices and Letters</a>
+              </li>
+                      <li>
+                                        <a href="/identity-theft-central" data-drupal-link-system-path="node/19616">Identity Theft</a>
+              </li>
+                      <li>
+                                        <a href="/help/tax-scams" data-drupal-link-system-path="node/138436">Tax scams</a>
+              </li>
+                      <li>
+                                        <a href="/compliance/criminal-investigation/tax-fraud-alerts" data-drupal-link-system-path="node/15416">Tax Fraud</a>
+              </li>
+                      <li>
+                                        <a href="/compliance/criminal-investigation" data-drupal-link-system-path="node/19091">Criminal Investigation</a>
+              </li>
+                      <li class="last">
+                                        <a href="/compliance/whistleblower-office" data-drupal-link-system-path="node/7935">Whistleblower Office</a>
+              </li>
+        </ul>
+          </div>
+     
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <span class="footer-column-header navbar-text dropdown-toggle" data-toggle="dropdown">Languages <span class="caret"></span></span>
+                              <div role="region">
+        <ul data-block="footernavigation_2" class="dropdown-menu">
+                      <li class="first">
+                                        <a href="https://www.irs.gov/es" lang="es" xml:lang="es">Español</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/zh-hans" lang="zh-hans" xml:lang="zh-hans">中文 (简体)</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/zh-hant" lang="zh-hant" xml:lang="zh-hant">中文 (繁體)</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/ko" lang="ko" xml:lang="ko">한국어</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/ru" lang="ru" xml:lang="ru">Pусский</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/vi" lang="vi" xml:lang="vi">Tiếng Việt</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov/ht" lang="ht" xml:lang="ht">Kreyòl ayisyen</a>
+              </li>
+                      <li>
+                                        <a href="https://www.irs.gov" lang="en" xml:lang="en">English</a>
+              </li>
+                      <li class="last">
+                                        <a href="/help/languages" data-drupal-link-system-path="node/80696">Other Languages</a>
+              </li>
+        </ul>
+          </div>
+     
+  
+              </li>
+                      <li class="expanded dropdown last">
+                                                                    <span class="footer-column-header navbar-text dropdown-toggle" data-toggle="dropdown">Related Sites <span class="caret"></span></span>
+                              <div role="region">
+        <ul data-block="footernavigation_2" class="dropdown-menu">
+                      <li class="first">
+                                        <a href="https://www.treasury.gov/">U.S. Treasury</a>
+              </li>
+                      <li>
+                                        <a href="https://www.treasury.gov/tigta/">Treasury Inspector General for Tax Administration</a>
+              </li>
+                      <li>
+                                        <a href="https://www.usa.gov/">USA.gov</a>
+              </li>
+                      <li>
+                                        <a href="https://www.usaspending.gov">USAspending.gov</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://vote.gov/">Vote.gov</a>
+              </li>
+        </ul>
+          </div>
+     
+  
+              </li>
+        </ul>
+     
+  
+
+  </nav>
+
+  </div>
+
+        </div>
+          </div>
+    <div class="container">
+      <div class="row pup-footer-social-media-links">
+          <div class="region region-social-media-footer pull-right">
+    <section id="block-socialmediaforfooter" data-block-plugin-id="block_content:40b0cf2e-cb49-4f62-888d-000cf00eb582" class="block block-block-content block-block-content40b0cf2e-cb49-4f62-888d-000cf00eb582 clearfix">
+  
+    
+
+        <div class="row">
+          <div class="social-icon">  <div class="paragraph paragraph--type--social-media-footer paragraph--view-mode--default">
+    		          <a href="https://www.facebook.com/IRS" aria-label="IRS Facebook "> 
+                      <i aria-hidden="true" class="fa fa-facebook-square"></i>
+                  </a>
+		        </div>
+</div>
+          <div class="social-icon">  <div class="paragraph paragraph--type--social-media-footer paragraph--view-mode--default">
+    		          <a href="https://www.twitter.com/IRSnews" aria-label="IRS Twitter"> 
+                      <svg style="height:34px;margin-top:3px;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
+                  </a>
+		        </div>
+</div>
+          <div class="social-icon">  <div class="paragraph paragraph--type--social-media-footer paragraph--view-mode--default">
+    		          <a href="https://www.instagram.com/irsnews" aria-label="Instagram"> 
+                      <i aria-hidden="true" class="fa fa-instagram"></i>
+                  </a>
+		        </div>
+</div>
+          <div class="social-icon">  <div class="paragraph paragraph--type--social-media-footer paragraph--view-mode--default">
+    		          <a href="https://www.linkedin.com/company/irs" aria-label="IRS LinkedIn"> 
+                      <svg style="height:34px;margin-top:3px;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                  </a>
+		        </div>
+</div>
+          <div class="social-icon">  <div class="paragraph paragraph--type--social-media-footer paragraph--view-mode--default">
+    		          <a href="https://www.youtube.com/user/irsvideos" aria-label="IRS Youtube"> 
+                      <i aria-hidden="true" class="fa fa-youtube-play"></i>
+                  </a>
+		        </div>
+</div>
+      </div>
+
+  </section>
+
+
+  </div>
+
+      </div>
+    </div>  
+    <div class="pup-footer-bottom">
+      <div class="container">
+        <div class="pup-footer-logo">
+          <a href="/"><img class="pup-footer-logo-img" src="/themes/custom/pup_base/IRS-Logo.svg" alt="Home"></a>
+        </div>
+        <div class="subfooter-menu">
+            <div class="region region-subfooter">
+    <nav role="navigation" aria-labelledby="block-subfooter-menu" id="block-subfooter" data-block-plugin-id="system_menu_block:subfooter">
+            
+  <h2 class="visually-hidden" id="block-subfooter-menu">Subfooter</h2>
+  
+
+        
+      <ul data-block="subfooter" class="menu menu--subfooter nav">
+                      <li class="first">
+                                        <a href="/privacy-disclosure/irs-privacy-policy" data-drupal-link-system-path="node/15856">Privacy Policy</a>
+              </li>
+                      <li class="last">
+                                        <a href="/accessibility" data-drupal-link-system-path="node/82611">Accessibility</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src='/static_assets/js/libs/jquery.min.js' type='text/javascript'></script>
+<!--412017-->
+
+  </div>
+
+    <script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"entityLanguage":"en","entityCountry":"US","siteName":"Internal Revenue Service","entityLangcode":"en","entityVid":"5700786","entityCreated":"1475208000","entityStatus":"1","entityType":"node","entityBundle":"pup_article","entityId":"3318","entityTitle":"SOI Tax Stats - County data","primaryCategory":"statistics","subCategory1":"soi-tax-stats-county-data","Navigation":{"id":"28596","label":"Data by geographic areas","bundle":"pup_navigation"},"field_pup_ot_guid":"0fb0b8fdda226310VgnVCM100000351f0a0aRCRD","field_pup_ot_unique_id":"215866","field_pup_ot_url":"https:\/\/www.irs.gov\/uac\/soi-tax-stats-county-data","entityTaxonomy":{"pup_channels":{"6306":"Statistics"},"pup_navigation":{"28596":"Data by geographic areas"},"pup_organization":{"14026":"RAAS:S"},"pup_topic":{"7756":"Tax Statistics"}},"userUid":0});</script>
+
+    <script src="/pub/js/js_oZMcdxWKpVPdHal6vJ8SEv-o_k3E5U-MeTpDTQYZ8WM.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkWGSgyAMhS-EciQmQMRskTAhdtvbr9padad_SN73wpAECIElEhc3YZmbhat2vxQTqoEYlaE87Z70g3BR45m1qUC1n8xVQUeFzmblyneUE1HmrFRNGLlhsa_Qexx2EmWukPuXMhEUMjxRrMcR7sTSDD40U7ntlW9pEnPK6BSSTcvxX_fwA48rnEydq1smx9bIUyZd55youLVLD7L5HhralNlD7hopdgOCzoLtcAtH7BbVgSiFjJsTbhhJWVzNc6JyWvF3-xvcKkna5_0gVPXAE2gYuxEpjXpATNCtv3giZb62vdKGIMvtnf8BwVLQaA"></script>
+<script src="https://static.addtoany.com/menu/page.js" defer></script>
+<script src="/pub/js/js_x_MpaCeJMyUx4QApScbYE17q5I8Af0qYeShYbCoGxgY.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=pup_irs&amp;include=eJxtkWGSgyAMhS-EciQmQMRskTAhdtvbr9padad_SN73wpAECIElEhc3YZmbhat2vxQTqoEYlaE87Z70g3BR45m1qUC1n8xVQUeFzmblyneUE1HmrFRNGLlhsa_Qexx2EmWukPuXMhEUMjxRrMcR7sTSDD40U7ntlW9pEnPK6BSSTcvxX_fwA48rnEydq1smx9bIUyZd55youLVLD7L5HhralNlD7hopdgOCzoLtcAtH7BbVgSiFjJsTbhhJWVzNc6JyWvF3-xvcKkna5_0gVPXAE2gYuxEpjXpATNCtv3giZb62vdKGIMvtnf8BwVLQaA"></script>
+
+  </body>
+</html>
