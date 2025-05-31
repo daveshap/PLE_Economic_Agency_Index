@@ -40,42 +40,6 @@ def load_counties_geojson():
 # Load counties data
 counties = load_counties_geojson()
 
-# Enhanced GeoJSON Debugging
-st.write("--- GeoJSON Details (Initial Load) ---")
-st.write("GeoJSON Keys:", list(counties.keys()))
-if "features" in counties and isinstance(counties["features"], list) and len(counties["features"]) > 0:
-    st.write("Number of features:", len(counties["features"]))
-    st.write("First feature (sample):", json.dumps(counties["features"][0], indent=2))
-    # Check for 'id' in the first feature
-    if "id" in counties["features"][0]:
-        st.write("ID of first feature:", counties["features"][0]["id"])
-        # Specifically check if "01001" is an ID in any feature
-        geojson_fips_ids = {feature['id'] for feature in counties['features'] if 'id' in feature}
-        if "01001" in geojson_fips_ids:
-            st.write("✅ Test FIPS '01001' is present as an 'id' in GeoJSON features.")
-        else:
-            st.error("❌ Test FIPS '01001' is NOT found as an 'id' in GeoJSON features. The test map will likely be blank.")
-    else:
-        st.error("❌ First feature in GeoJSON does NOT have an 'id' field. This is likely the problem.")
-        st.write("   Please check the structure of the GeoJSON. It might use 'properties.FIPS' or similar for the feature identifier.")
-else:
-    st.error("❌ GeoJSON does not contain 'features', features list is empty, or not a list. Cannot draw map.")
-st.write("--- End GeoJSON Details (Initial Load) ---")
-
-# Extract just the feature for "01001" for a super-focused test
-single_feature_geojson = None
-if "features" in counties and isinstance(counties["features"], list):
-    for feature in counties["features"]:
-        if feature.get("id") == "01001":
-            single_feature_geojson = {
-                "type": "FeatureCollection",
-                "features": [feature]
-            }
-            st.write("✅ Created a minimal GeoJSON containing only the feature for FIPS 01001.")
-            break
-if not single_feature_geojson:
-    st.error("❌ Could not extract feature '01001' to create a minimal GeoJSON for the test map.")
-
 # Custom CSS
 st.markdown("""
     <style>
@@ -105,29 +69,15 @@ def load_data(selected_line_code):
         low_memory=False  # Handle mixed types warning
     )
     
-    # Get debug parameter
-    debug = st.experimental_get_query_params().get("debug", ["False"])[0].lower() == "true"
-    
-    if debug:
-        st.write("Initial data shape:", df.shape)
-        st.write("Sample of initial GeoFIPS values:", df['GeoFIPS'].head(10).tolist())
-        st.write("Sample of initial GeoName values:", df['GeoName'].head(10).tolist())
-    
     # Filter out rows where GeoFIPS is not a valid FIPS code
     # First convert to string and clean up
     df['GeoFIPS'] = df['GeoFIPS'].astype(str).str.strip().str.replace('"', '').str.replace("'", '')
-    if debug:
-        st.write("Sample of cleaned GeoFIPS before filtering:", df['GeoFIPS'].head(10).tolist())
     
     # Keep only rows where GeoFIPS is a valid FIPS code (5 digits)
     df = df[df['GeoFIPS'].str.match(r'^\d{5}$', na=False)]
-    if debug:
-        st.write("Shape after FIPS code filter:", df.shape)
     
     # Clean and convert GeoFIPS to proper format (already 5 digits, just ensure string format)
     df["GeoFIPS"] = df["GeoFIPS"].astype(str).str.zfill(5)
-    if debug:
-        st.write("Sample of final GeoFIPS values:", df['GeoFIPS'].head(10).tolist())
     
     # Get year columns (columns that contain year data)
     year_columns = [col for col in df.columns if col.isdigit()]
@@ -147,22 +97,14 @@ def load_data(selected_line_code):
     
     # Get US total data (for metrics)
     us_total_data = df[df['GeoName'] == 'United States']
-    if debug:
-        st.write("Number of US total rows:", len(us_total_data))
     us_total_data = us_total_data[us_total_data['LineCode'] == selected_line_code]
-    if debug:
-        st.write("Number of US total rows after LineCode filter:", len(us_total_data))
     
     # Filter for county data (keep only entries with comma + state abbreviation)
     # First get all rows that are not "United States"
     county_data = df[df['GeoName'] != 'United States']
-    if debug:
-        st.write("Number of rows after removing US total:", len(county_data))
     
     # Remove any entries with asterisks in the name
     county_data = county_data[~county_data['GeoName'].str.contains('*', regex=False, na=False)]
-    if debug:
-        st.write("Number of rows after removing asterisks:", len(county_data))
     
     # Define state abbreviations
     state_abbrs = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 
@@ -174,24 +116,15 @@ def load_data(selected_line_code):
     # Create a pattern to match entries that end with ", XX" where XX is a state abbreviation
     state_pattern = '|'.join([f', {abbr}$' for abbr in state_abbrs])
     county_data = county_data[county_data['GeoName'].str.contains(state_pattern, regex=True, na=False)]
-    if debug:
-        st.write("Number of rows after state pattern filter:", len(county_data))
-        st.write("Sample of county names after filtering:", county_data['GeoName'].head(10).tolist())
     
     # Extract county name (everything before the comma)
     county_data['CountyName'] = county_data['GeoName'].str.split(',').str[0]
     
     # Filter for selected LineCode
     county_data = county_data[county_data['LineCode'] == selected_line_code]
-    if debug:
-        st.write("Number of rows after LineCode filter:", len(county_data))
-        st.write("Number of counties found:", len(county_data))
-        st.write("Top 10 county names:", county_data['CountyName'].head(10).tolist())
     
     # Get unique states (extract state abbreviations from county names)
     states = sorted(county_data['GeoName'].str.extract(f', ({state_pattern})')[0].unique())
-    if debug:
-        st.write("Found states:", states)
     
     return county_data, us_total_data, year_columns, states
 
@@ -256,18 +189,9 @@ st.markdown("""
 
 # Filter data based on selection
 filtered_data = county_data.copy()
-debug = st.experimental_get_query_params().get("debug", ["False"])[0].lower() == "true"
-
-if debug:
-    st.write("Total rows in county_data:", len(county_data))
-    st.write("Top 10 GeoFIPS (from county_data):", county_data['GeoFIPS'].head(10).tolist())
-    st.write("Top 10 County Names (from county_data):", county_data['CountyName'].head(10).tolist())
-    st.write(f"Top 10 values for {selected_year} (from county_data):", county_data[selected_year].head(10).tolist())
 
 if selected_state != "All States":
     filtered_data = filtered_data[filtered_data['GeoName'].str.contains(f', {selected_state}$', regex=True)]
-    if debug:
-        st.write("Rows after state filter:", len(filtered_data))
 
 # Ensure the data for coloring is numeric and handle potential issues
 color_col_name = 'color_value'
@@ -286,31 +210,6 @@ else:
     filtered_data[log_color_col_name] = pd.Series(dtype='float64')
 
 
-# Debugging the color column
-if debug: # Combined debug block
-    st.write(f"--- Debugging '{color_col_name}' and '{log_color_col_name}' columns ---")
-    st.write(f"Data type of '{color_col_name}':", filtered_data[color_col_name].dtype)
-    st.write(f"Number of NaNs in '{color_col_name}':", filtered_data[color_col_name].isna().sum())
-    if not filtered_data[color_col_name].isna().all():
-        st.write(f"Min value in '{color_col_name}':", filtered_data[color_col_name].min())
-        st.write(f"Max value in '{color_col_name}':", filtered_data[color_col_name].max())
-        st.write(f"Sample values from '{color_col_name}': {filtered_data[color_col_name].dropna().head().tolist()}")
-    else:
-        st.write(f"All values in '{color_col_name}' are NaN.")
-
-    if log_color_col_name in filtered_data.columns:
-        st.write(f"Data type of '{log_color_col_name}':", filtered_data[log_color_col_name].dtype)
-        st.write(f"Number of NaNs in '{log_color_col_name}':", filtered_data[log_color_col_name].isna().sum())
-        st.write(f"Number of infinite values in '{log_color_col_name}':", np.isinf(filtered_data[log_color_col_name]).sum()) # Check for inf
-        if not filtered_data[log_color_col_name].isna().all() and not np.isinf(filtered_data[log_color_col_name]).any():
-            st.write(f"Min value in '{log_color_col_name}':", filtered_data[log_color_col_name].min())
-            st.write(f"Max value in '{log_color_col_name}':", filtered_data[log_color_col_name].max())
-            st.write(f"Sample values from '{log_color_col_name}': {filtered_data[log_color_col_name].dropna().head().tolist()}")
-        else:
-            st.write(f"All values in '{log_color_col_name}' are NaN, infinite, or column not generated properly.")
-    st.write("--- End Debugging ---")
-
-
 # Verify we have data before proceeding
 if len(filtered_data) == 0:
     st.error(f"No data found for state: {selected_state}")
@@ -321,31 +220,10 @@ if log_color_col_name not in filtered_data.columns or filtered_data[log_color_co
     st.error(f"No valid (non-NaN, finite) log-transformed data available for year {selected_year} (column '{log_color_col_name}') to color the map after filtering.")
     st.stop()
 
-if debug:
-    st.write("--- Data going into main choropleth map (head) ---")
-    st.write(filtered_data[["GeoFIPS", "CountyName", log_color_col_name]].head())
-    st.write(f"Shape of filtered_data: {filtered_data.shape}")
-    st.write(f"Number of unique GeoFIPS in filtered_data for map: {filtered_data['GeoFIPS'].nunique()}")
-
-    st.write("--- GeoJSON Details (Before Plotting Main Map) ---")
-    st.write("Number of features in 'counties' GeoJSON:", len(counties.get("features", [])) if isinstance(counties.get("features"), list) else "N/A or not a list")
-    if "features" in counties and isinstance(counties["features"], list) and len(counties["features"]) > 0 and "id" in counties["features"][0]:
-         st.write("Sample feature ID from 'counties' GeoJSON:", counties["features"][0]["id"])
-    else:
-        st.write("Sample feature ID from 'counties' GeoJSON: Not available or 'id' field missing.")
-    st.write("--- End GeoJSON Details (Before Plotting Main Map) ---")
-
-
 geo_ids = {feat["id"] for feat in counties.get("features", []) if isinstance(counties.get("features"), list) and "id" in feat} # Defensive
 df_ids  = set(filtered_data["GeoFIPS"])
 matches    = geo_ids & df_ids
 mismatches = df_ids - geo_ids
-
-st.write(f"✅ matched counties between GeoJSON and data: {len(matches)}")
-st.write(f"❌ GeoFIPS in data but not in GeoJSON (first 10): {list(mismatches)[:10]}")
-if not matches and len(df_ids) > 0:
-    st.warning("No FIPS codes in your data match the FIPS codes in the GeoJSON. The map will likely be blank.")
-
 
 # Create choropleth map using go.Choropleth based on minimal_plotly_test.py learnings
 fig = go.Figure(data=[go.Choropleth(
@@ -378,46 +256,6 @@ fig.update_layout(
 
 # Display the map
 st.plotly_chart(fig, use_container_width=True)
-
-st.write("--- Single County Test Map (ULTRA-SIMPLE go.Choropleth) ---")
-st.write("Attempting to render county 01001 with value 1. Check if ANY map area appears.")
-# test_df = pd.DataFrame({"GeoFIPS": ["01001"], "val": [1]}) # Not using test_df for this version
-
-if single_feature_geojson: # Only attempt if we successfully created the minimal GeoJSON
-    simple_test_fig = go.Figure(data=[
-        go.Choropleth(
-            locations=["01001"],             # Hardcoded list with one FIPS
-            z=[1.0],                       # Hardcoded list with one float value
-            geojson=single_feature_geojson,  # Minimal GeoJSON with only feature 01001
-            featureidkey="id",
-            colorscale="Reds",
-        )
-    ])
-    
-    # NO LAYOUT UPDATES AT ALL - PURE DEFAULTS
-    simple_test_fig.update_layout(title_text='Ultra-Simple Test Map (01001 only)', height=300) # Minimal layout
-
-    st.write("Attempting to render ultra-simple go.Choropleth fig:", simple_test_fig is not None)
-    try:
-        st.plotly_chart(simple_test_fig, use_container_width=True)
-        st.write("st.plotly_chart for ultra-simple map executed without Python error.")
-    except Exception as e:
-        st.error(f"Python error during st.plotly_chart for ultra-simple map: {e}")
-else:
-    st.error("Cannot render the ultra-simple single county test map because the minimal GeoJSON for it is missing.")
-
-
-# Debug information after the map
-if debug:
-    st.write("---")
-    st.write("Debug Information:")
-    st.write("Number of rows:", len(filtered_data))
-    st.write("Top 10 FIPS codes:", filtered_data['GeoFIPS'].head(10).tolist())
-    st.write("Top 10 values:", filtered_data[selected_year].head(10).tolist())
-    st.write("Min value:", filtered_data[selected_year].min())
-    st.write("Max value:", filtered_data[selected_year].max())
-    st.write("Number of counties:", len(filtered_data['CountyName'].unique()))
-    st.write("Sample of county names:", filtered_data['CountyName'].head(10).tolist())
 
 # Display metrics only if we have valid data
 if not filtered_data[selected_year].isna().all():
